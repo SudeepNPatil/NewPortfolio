@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { ExternalLink, Github } from 'lucide-react';
-import ecommerce from '../assets/ecommerce.gif';
 import ecommercehardware from '../assets/ecommercehardware.png';
 
 export default function Projects() {
