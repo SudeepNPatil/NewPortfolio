@@ -10,6 +10,7 @@ import {
   Code,
   HashIcon,
   Mail,
+  PhoneCall,
 } from 'lucide-react';
 import { FaHashnode } from 'react-icons/fa6';
 import { TbBrandLeetcode } from 'react-icons/tb';
@@ -84,10 +85,8 @@ export default function Home() {
 
   return (
     <div className="bg-white">
-      {/* Hero Section */}
       <div className="min-h-screen flex items-center justify-center px-8 py-12 mt-28">
         <div className="max-w-5xl grid md:grid-cols-2 gap-32 items-start">
-          {/* Left Side */}
           <div className="space-y-4">
             <div>
               <h1 className="text-5xl font-bold text-black mb-4">
@@ -102,7 +101,7 @@ export default function Home() {
             </div>
 
             <div className="flex items-center gap-2 text-gray-600">
-              I aim to grow as a Software Engineer by continuously expanding my
+              I Aim to grow as a Software Engineer by continuously expanding my
               knowledge and taking on challenging projects. I believe that the
               best way to learn is through practice and curiosity.
             </div>
@@ -117,6 +116,11 @@ export default function Home() {
               <span>patilsudeep.mca.amcec23@gmail</span>
             </div>
 
+            <div className="flex items-center gap-2 text-gray-600">
+              <PhoneCall size={20} />
+              <span>+918660858192</span>
+            </div>
+
             <div className="text-gray-600">
               <p className="font-medium">Looking for job opportunities</p>
             </div>
@@ -124,11 +128,22 @@ export default function Home() {
             <div className="flex gap-4 pt-4">
               <button className="flex items-center gap-2 px-6 py-3 border-2 border-black text-black hover:bg-gray-100 transition-colors">
                 <Eye size={20} />
-                Look at CV
+                <a
+                  href="/SudeepPatil_FullStackDev_Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Look at CV
+                </a>
               </button>
               <button className="flex items-center gap-2 px-6 py-3 bg-black text-white hover:bg-gray-800 transition-colors">
                 <Download size={20} />
-                Download CV
+                <a
+                  href="/SudeepPatil_FullStackDev_Resume.pdf"
+                  download="Sudeep_Patil_Resume.pdf"
+                >
+                  Download CV
+                </a>
               </button>
             </div>
 
@@ -172,7 +187,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Right Side - Photo */}
           <div className="flex justify-center shadow-lg">
             <img
               src={SudeepNPatil}
@@ -183,7 +197,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* About Me Section */}
       <div className="px-8 py-16 bg-gray-50">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl font-bold text-black mb-8">Know About Me</h2>
@@ -210,10 +223,8 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Education & Skills Section */}
       <div className="px-8 py-16">
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12">
-          {/* Skills */}
           <div>
             <div className="flex items-center gap-3 mb-6">
               <Code size={32} className="text-black" />
@@ -231,7 +242,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Education */}
           <div>
             <div className="flex items-center gap-3 mb-6">
               <GraduationCap size={32} className="text-black" />
@@ -250,7 +260,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* GitHub Contributions Section */}
       <div className="px-8 py-16 bg-gray-50">
         <div className="max-w-5xl mx-auto">
           <div className="flex items-center gap-3 mb-8">
@@ -259,7 +268,6 @@ export default function Home() {
           </div>
 
           <div className="space-y-8">
-            {/* GitHub Contribution Graph */}
             <div className="border-2 border-black p-6 bg-white overflow-x-auto">
               <h3 className="text-2xl font-bold text-black mb-4">
                 Contribution Calendar
@@ -271,7 +279,6 @@ export default function Home() {
               />
             </div>
 
-            {/* Most Used Languages */}
             <div className="grid grid-cols-2 bg-white">
               <div className="border border-black">
                 <img

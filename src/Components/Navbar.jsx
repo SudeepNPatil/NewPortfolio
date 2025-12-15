@@ -29,7 +29,6 @@ const Navbar = () => {
 
   return (
     <>
-      {/* DESKTOP NAVBAR */}
       <motion.nav
         layout
         transition={{ type: 'tween', ease: 'easeOut', duration: 0.45 }}
@@ -69,7 +68,7 @@ const Navbar = () => {
         <motion.div
           className={`flex h-full ${
             isMinimized
-              ? 'items-end justify-end'
+              ? 'items-end justify-end '
               : 'px-14 items-center justify-between'
           }`}
         >
@@ -114,7 +113,9 @@ const Navbar = () => {
 
       <nav className="fixed top-4 left-4 right-4 z-50 md:hidden bg-white rounded-3xl shadow-lg">
         <div className="flex items-center justify-between px-5 py-3">
-          <span className="font-bold">Sudeep</span>
+          <Link to={`/Home`} className="font-bold">
+            Sudeep
+          </Link>
           <button onClick={() => setMobileOpen(true)}>
             <Menu />
           </button>

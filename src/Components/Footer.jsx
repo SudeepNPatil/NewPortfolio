@@ -8,10 +8,8 @@ export default function Footer() {
 
   return (
     <footer className="bg-black text-white">
-      {/* Main Footer Content */}
       <div className="max-w-6xl mx-auto px-8 py-12">
         <div className="grid md:grid-cols-3 gap-8">
-          {/* About Section */}
           <div>
             <h3 className="text-2xl font-bold mb-4">Sudeep Patil</h3>
             <p className="text-gray-300 mb-4">
@@ -23,7 +21,6 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Quick Links */}
           <div>
             <h4 className="text-xl font-bold mb-4">Quick Links</h4>
             <ul className="space-y-2">
@@ -62,7 +59,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact Info */}
           <div>
             <h4 className="text-xl font-bold mb-4">Get In Touch</h4>
             <div className="space-y-3">
@@ -94,7 +90,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Social Links */}
         <div className="mt-12 pt-8 border-t border-gray-700">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex gap-4">
@@ -139,7 +134,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Made with Love */}
         <div className="mt-6 text-center">
           <p className="text-gray-400 text-sm flex items-center justify-center gap-2">
             Made with <Heart size={16} className="text-red-500 fill-red-500" />{' '}

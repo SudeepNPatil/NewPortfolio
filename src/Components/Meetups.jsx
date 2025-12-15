@@ -77,7 +77,6 @@ export default function Meetups() {
   return (
     <div className="min-h-screen bg-white px-8 py-16 mt-28">
       <div className="max-w-6xl mx-auto">
-        {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-5xl font-bold text-black mb-4">
             Meetups & Events
@@ -88,16 +87,14 @@ export default function Meetups() {
           </p>
         </div>
 
-        {/* Meetups Grid */}
         <div className="grid md:grid-cols-2 gap-8">
           {meetups.map((meetup) => (
             <Link
               to={`${meetup.MeetupUrl}`}
               target="_blank"
               key={meetup.id}
-              className="border border-black cursor-pointer hover:shadow-xl transition-all duration-300 flex flex-col"
+              className="shadow-xl rounded-lg cursor-pointer hover:shadow-xl transition-all duration-300 flex flex-col"
             >
-              {/* Meetup Image */}
               <div className="overflow-hidden ">
                 <img
                   src={meetup.image}
@@ -106,7 +103,6 @@ export default function Meetups() {
                 />
               </div>
 
-              {/* Meetup Content */}
               <div className="p-6 flex flex-col flex-grow">
                 <Link
                   to={`${meetup.communityurl}`}
@@ -120,7 +116,6 @@ export default function Meetups() {
                   {meetup.description}
                 </p>
 
-                {/* Meetup Info */}
                 <div className="space-y-3 pt-4 border-t border-gray-300">
                   <div className="flex items-center gap-3 text-gray-700 cursor-default">
                     <Calendar size={20} className="text-black" />
