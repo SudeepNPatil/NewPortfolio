@@ -264,12 +264,14 @@ export default function Home() {
         <div className="max-w-5xl mx-auto">
           <div className="flex items-center gap-3 mb-8">
             <Github size={30} className="text-black" />
-            <h2 className="text-3xl font-bold text-black">GitHub Activity</h2>
+            <h2 className="text-xl sm:text-3xl font-bold text-black">
+              GitHub Activity
+            </h2>
           </div>
 
           <div className="space-y-8">
-            <div className="border-2 border-black p-6 bg-white overflow-x-auto">
-              <h3 className="text-2xl font-bold text-black mb-4">
+            <div className="border border-black p-6 bg-white overflow-x-auto">
+              <h3 className="text-base sm:text-2xl font-bold text-black mb-4">
                 Contribution Calendar
               </h3>
               <img
@@ -279,7 +281,7 @@ export default function Home() {
               />
             </div>
 
-            <div className="grid grid-cols-2 bg-white">
+            <div className="grid grid-cols-1 sm:grid-cols-2 bg-white">
               <div className="border border-black">
                 <img
                   src="https://streak-stats.vercel.app/?user=SudeepNPatil"
@@ -289,7 +291,7 @@ export default function Home() {
               </div>
 
               <div className="border border-black pl-5">
-                <h3 className="text-xl font-bold text-black mt-2">
+                <h3 className="text-base sm:text-xl font-bold text-black mt-2">
                   Most Used Languages
                 </h3>
 
