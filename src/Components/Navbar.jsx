@@ -32,7 +32,7 @@ const Navbar = () => {
       <motion.nav
         layout
         transition={{ type: 'tween', ease: 'easeOut', duration: 0.45 }}
-        className="fixed z-50 bg-white text-black shadow-lg border hidden md:block"
+        className="fixed z-50 bg-white text-black shadow-lg border hidden md:block overflow-x-auto no-scrollbar"
         animate={
           isMinimized
             ? {
@@ -46,6 +46,8 @@ const Navbar = () => {
               }
             : {
                 width: '60vw',
+                maxWidth: 1100,
+                minWidth: 900,
                 height: 64,
                 top: 24,
                 left: '50%',
@@ -69,7 +71,7 @@ const Navbar = () => {
           className={`flex h-full ${
             isMinimized
               ? 'items-end justify-end '
-              : 'px-14 items-center justify-between'
+              : 'px-6 lg:px-14 items-center justify-between'
           }`}
         >
           {isMinimized ? (
@@ -95,7 +97,7 @@ const Navbar = () => {
                 Sudeep
               </Link>
 
-              <div className="flex gap-8">
+              <div className="flex  md:gap-2 lg:gap-8">
                 {['Home', 'Projects', 'Blogs', 'Meetups'].map((item) => (
                   <Link
                     key={item}

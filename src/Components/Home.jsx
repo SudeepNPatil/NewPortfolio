@@ -187,7 +187,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex justify-center shadow-lg">
+          <div className="flex justify-center shadow-lg rounded-2xl">
             <img
               src={SudeepNPatil}
               alt="Sudeep"
