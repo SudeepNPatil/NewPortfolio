@@ -270,8 +270,8 @@ export default function Home() {
           </div>
 
           <div className="space-y-8">
-            <div className="border border-black p-6 bg-white overflow-x-auto">
-              <h3 className="text-base sm:text-2xl font-bold text-black mb-4">
+            <div className="border border-black p-3 sm:p-6 bg-white overflow-x-auto">
+              <h3 className="text-base sm:text-2xl font-bold text-black mb-2 sm:mb-4">
                 Contribution Calendar
               </h3>
               <img
