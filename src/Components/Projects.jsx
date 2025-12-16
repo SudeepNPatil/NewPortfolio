@@ -129,7 +129,7 @@ export default function Projects() {
         'React js',
         'TailwindCSS',
       ],
-      liveDemo: 'https://hire-stream.netlify.app',
+      liveDemo: 'https://hire-stream-portal.netlify.app/',
       sourceCode: 'https://github.com/SudeepNPatil/Hire_Stream',
       image: student_dashboard,
     },
