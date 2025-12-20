@@ -129,7 +129,7 @@ export default function Home() {
               <button className="flex items-center gap-2 px-6 py-3 border-2 border-black text-black hover:bg-gray-100 transition-colors">
                 <Eye size={20} />
                 <a
-                  href="/SudeepPatil_FullStackDev_Resume.pdf"
+                  href="/SudeepPatil_FullstackDev_Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -139,7 +139,7 @@ export default function Home() {
               <button className="flex items-center gap-2 px-6 py-3 bg-black text-white hover:bg-gray-800 transition-colors">
                 <Download size={20} />
                 <a
-                  href="/SudeepPatil_FullStackDev_Resume.pdf"
+                  href="/SudeepPatil_FullstackDev_Resume.pdf"
                   download="Sudeep_Patil_Resume.pdf"
                 >
                   Download CV
