@@ -94,6 +94,22 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex gap-4">
               <a
+                href="https://www.linkedin.com/in/sudeepnpatil/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 border-2 border-white hover:bg-white hover:text-black transition-colors"
+              >
+                <Linkedin size={24} />
+              </a>
+              <a
+                href="https://github.com/SudeepNpatil"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 border-2 border-white hover:bg-white hover:text-black transition-colors"
+              >
+                <Github size={24} />
+              </a>
+              <a
                 href="https://hashnode.com/@Sudeep-Patil"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -109,22 +125,6 @@ export default function Footer() {
                 className="p-3 border-2 border-white hover:bg-white hover:text-black transition-colors"
               >
                 <TbBrandLeetcode size={24} />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/sudeepnpatil/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-3 border-2 border-white hover:bg-white hover:text-black transition-colors"
-              >
-                <Linkedin size={24} />
-              </a>
-              <a
-                href="https://github.com/SudeepNpatil"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-3 border-2 border-white hover:bg-white hover:text-black transition-colors"
-              >
-                <Github size={24} />
               </a>
             </div>
 

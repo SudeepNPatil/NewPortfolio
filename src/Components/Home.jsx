@@ -151,6 +151,22 @@ export default function Home() {
               <p className="text-gray-600 mb-3">Follow me on:</p>
               <div className="flex gap-4">
                 <a
+                  href="https://www.linkedin.com/in/sudeepnpatil/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 border-2 border-black hover:bg-black hover:text-white transition-colors"
+                >
+                  <Linkedin size={24} />
+                </a>
+                <a
+                  href="https://github.com/SudeepNPatil"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 border-2 border-black hover:bg-black hover:text-white transition-colors"
+                >
+                  <Github size={24} />
+                </a>
+                <a
                   href="https://hashnode.com/@Sudeep-Patil"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -166,22 +182,6 @@ export default function Home() {
                   className="p-3 border-2 border-black hover:bg-black hover:text-white transition-colors"
                 >
                   <TbBrandLeetcode size={24} />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/sudeepnpatil/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-3 border-2 border-black hover:bg-black hover:text-white transition-colors"
-                >
-                  <Linkedin size={24} />
-                </a>
-                <a
-                  href="https://github.com/SudeepNPatil"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-3 border-2 border-black hover:bg-black hover:text-white transition-colors"
-                >
-                  <Github size={24} />
                 </a>
               </div>
             </div>
